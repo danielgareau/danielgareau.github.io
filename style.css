@@ -60,6 +60,7 @@
 	text-align: center;
 	margin: 20px;
 }
+/*Sets urls links to orange*/
 .earlylife .earlylifecontent p a{
 	color: orange;
 	padding: 20px
@@ -67,7 +68,7 @@
 .earlylife .earlylifecontent p img{
 	/*Rounds corners of pictures*/
 	border-radius: 12px;
-
+}
 	
 /*ESCAPADES PAGE*/
 /*Sets text font and alignment for heading*/

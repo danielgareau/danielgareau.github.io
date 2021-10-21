@@ -1,0 +1,99 @@
+/*NAV BAR*/
+/*Navigation bar modified from examples in "Learn HTML" android app and "w3schools"*/
+/*This part sets the height and colour of the nav bar background*/
+.nav{
+	height:60px;
+	background: white;
+}
+/*This part sets the postion of the nav bar/site title and sets its font size and colour*/
+.nav div{
+	position: absolute;
+	left: 0;
+	padding: 15px;
+	font-size:20px;
+	color: orange;
+}
+/* This part sets the position of all the navigation items(whole unordered list*/
+.nav ul{
+	margin: 10px;
+	padding: 10px;
+	position: absolute;
+	right: 0;
+}
+/*This part sets the nav bar horizontal and removes bullet points (by default)*/
+.nav ul li{
+	display: inline;
+}
+/*This part sets the individual list items to white text and pads between them 15px*/
+.nav ul li a{
+	color:orange;
+	padding:15px
+}
+
+/*HOME PAGE*/
+/*Setting background to an image and having it cover the entire page*/
+.home{
+	background: orange;
+}
+/*This part defines the placement and font of the headings in homecontent. Headings are centered and justified centered*/
+.home .homecontent{
+	font-family: "Lucida Handwriting", cursive;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 850px;
+	color: white;
+}
+
+/*EARLY LIFE PAGE*/
+/*Sets text font and alignment for heading*/
+.earlylife .earlylifecontent h1{
+	font-family: "Lucida Handwriting", cursive;
+	text-align:center;
+}
+/*Sets text font and alignment for paragpraph*/
+.earlylife .earlylifecontent p{
+	font-family: "Courier New", monospace;
+	text-align: center;
+	margin: 20px;
+}
+
+.earlylife .earlylifecontent p a{
+	color: orange;
+	padding: 20px
+}
+
+
+/*ESCAPADES PAGE*/
+/*Sets text font and alignment for heading*/
+.escapades .escapadescontent h1{
+	font-family: "Lucida Handwriting", cursive;
+	text-align:center;
+	
+}
+/*Removes space for bullet points from unordered list of pictures and centers the list on the page*/
+.escapades .escapadespictures ul{
+	padding: 0;
+	text-align: center;
+}
+/*List items*/
+.escapades .escapadespictures ul li{
+	/*Removes bullet points*/
+	list-style: none;
+	/*Displays list in grid if width is changed in window*/
+	display: inline-grid;
+	width: 320px;
+	padding: 0 10px;
+}
+/*Pictures*/
+.escapades .escapadespictures ul li img{
+	/*Rounds corners of pictures*/
+	border-radius: 12px;
+	
+}
+/*Text under pictures*/
+.escapades .escapadespictures ul li p{
+	/*Centers text under picture*/
+	text-align: center;
+}

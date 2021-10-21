@@ -30,8 +30,9 @@
 	padding:15px
 }
 
+
 /*HOME PAGE*/
-/*Setting background to an image and having it cover the entire page*/
+/*Setting background to a color*/
 .home{
 	background: orange;
 }
@@ -46,6 +47,7 @@
 	color: white;
 }
 
+
 /*EARLY LIFE PAGE*/
 /*Sets text font and alignment for heading*/
 .earlylife .earlylifecontent h1{
@@ -58,19 +60,20 @@
 	text-align: center;
 	margin: 20px;
 }
-
 .earlylife .earlylifecontent p a{
 	color: orange;
 	padding: 20px
 }
+.earlylife .earlylifecontent p img{
+	/*Rounds corners of pictures*/
+	border-radius: 12px;
 
-
+	
 /*ESCAPADES PAGE*/
 /*Sets text font and alignment for heading*/
 .escapades .escapadescontent h1{
 	font-family: "Lucida Handwriting", cursive;
-	text-align:center;
-	
+	text-align:center;	
 }
 /*Removes space for bullet points from unordered list of pictures and centers the list on the page*/
 .escapades .escapadespictures ul{

@@ -108,11 +108,3 @@ background: darkseagreen;}
 	/*Centers text under picture*/
 	text-align: center;
 }
-/*Second list items*/
-.thirdpagepictures2 li{
-	list-style: none;
-	/*Displays list in grid if width is changed in window*/
-	display: inline-grid;
-	width: 320px
-	padding: 0 100px;
-}
